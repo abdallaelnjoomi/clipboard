@@ -1,0 +1,514 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* component */
+.info h2 {
+    margin-bottom: .6em;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.info p {
+    font-size: .8rem;
+    line-height: 1.7em;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 3em;
+}
+
+section {
+    /* margin-bottom: 9.2em; */
+    text-align: center;
+}
+
+
+.container {
+    padding: 0 1.4em;
+}
+
+/* component */
+
+
+
+/* header */
+header {
+    margin: 5em 0 8.2em;
+}
+
+header .bg-img {
+    background-image: url(./images/bg-header-mobile.png);
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0px -10px 10px rgba(255, 255, 255, 0.5);
+    /* border-bottom: 2px solid white; */
+
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 1em;
+    margin: 2em auto;
+}
+
+header .container .logo {
+    margin-bottom: 1em;
+}
+
+header .container h1 {
+    font-size: 1.5rem;
+}
+
+header .container p {
+    color: hsl(201, 11%, 66%);
+    font-size: .8rem;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+}
+
+header .container .header-btn {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    width: 100%;
+}
+
+header .container button {
+    padding: 1.08em;
+    border: none;
+    border-radius: 3em;
+    font-weight: bold;
+    color: white;
+}
+
+header .container button:hover {
+    opacity: .8;
+}
+
+header .container button:first-child {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 5px 15px hsla(171, 66%, 44%, 32%), inset 0px -1px 3px hsl(170, 66%, 23%);
+}
+
+header .container button:last-child {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.153), inset 0px -1px 3px hsl(233, 49%, 41%);
+}
+
+/* header */
+
+
+
+/* hero section */
+section.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.4em;
+    margin-bottom: 9.2em;
+}
+
+
+section.hero .content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.3em;
+}
+
+section.hero .content .left-container img {
+    max-width: 100%;
+}
+
+section.hero .content .right-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.8em;
+}
+
+section.hero .content .right-container h3 {
+    margin-bottom: .6em;
+}
+
+section.hero .content .right-container p {
+    color: hsl(201, 11%, 66%);
+    font-size: small;
+    line-height: 1.7;
+}
+
+/* hero-section */
+
+
+
+/* more-info section */
+section.clipboard img {
+    max-width: 100%;
+    margin-bottom: 5em;
+}
+
+/* more-info section */
+
+
+
+/* workflow section */
+
+section.workflow {
+    margin-bottom: 6.1em;
+}
+
+section.workflow .container {
+    margin: 0 auto;
+}
+
+section.workflow .info {
+    margin-bottom: 4em;
+}
+
+section.workflow .content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+}
+
+section.workflow .content .box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+section.workflow .content .box .box-img {
+    width: 15%;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: .9em;
+}
+
+section.workflow .content .box:nth-of-type(2) .box-img {
+    width: 11%;
+}
+
+section.workflow .content .box:last-of-type .box-img {
+    width: 15%;
+}
+
+section.workflow .content .box img {
+    width: 100%;
+}
+
+section.workflow .content .box p {
+    color: hsl(201, 11%, 66%);
+    font-size: small;
+    line-height: 1.6;
+}
+
+/* workflow section */
+
+
+
+/* Sponsors section */
+section.sponsors {
+    margin-bottom: 9.2em;
+}
+
+section.sponsors .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3em;
+    width: 47%;
+    margin: 0 auto;
+
+}
+
+section.sponsors .container img {
+    width: 100%;
+}
+
+/* Sponsors section */
+
+
+
+/* Download section */
+
+section.download {
+    margin-bottom: 8.2em;
+}
+
+section.download .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 1em;
+    margin: 0 auto;
+}
+
+section.download .container .logo {
+    margin-bottom: 1em;
+}
+
+section.download .container .header-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+section.download .container button {
+    padding: 1.1em;
+    border: none;
+    border-radius: 3em;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+}
+
+section.download .container button:hover {
+    opacity: .8;
+}
+
+section.download .container button:first-child {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 5px 15px hsla(171, 66%, 44%, 32%), inset 0px -1px 3px hsl(170, 66%, 23%);
+}
+
+section.download .container button:last-child {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.153), inset 0px -1px 3px hsl(233, 49%, 41%);
+}
+
+/* Download section */
+
+/* footer */
+
+footer {
+    text-align: center;
+    background-color: hsla(210, 11%, 89%, 0.47);
+    padding: 2.8em 0;
+}
+
+footer .left img {
+    margin-bottom: 2em;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: small;
+    color: hsl(210, 10%, 33%);
+}
+
+footer a:hover,
+footer svg:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+footer .center {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+footer .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2em;
+}
+
+footer .right svg {
+    transform: scale(.8);
+}
+
+
+
+/* footer */
+
+@media (min-width: 992px) {
+    header .bg-img {
+        background-image: url(./images/bg-header-desktop.png);
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-position: center;
+        background-size: cover;
+        box-shadow: inset 0px -10px 50px rgba(255, 255, 255, 0.5);
+    }
+
+    header .container {
+        width: 50em;
+    }
+
+    header .container h1 {
+        font-size: 2.9rem;
+    }
+
+    header .container p {
+        font-size: 1.4rem;
+    }
+
+    header .container .header-btn {
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 1em;
+        width: 450px;
+    }
+
+    header .container button {
+        padding: 1em;
+        width: 100%;
+    }
+
+    .info {
+        margin: 0 auto;
+        width: 40em;
+    }
+
+    .info h2 {
+        font-size: xx-large;
+    }
+
+    .info p {
+        font-size: medium;
+    }
+
+    section.hero {
+        padding: 0;
+        row-gap: 2em;
+    }
+
+    section.hero .content {
+        flex-direction: row;
+        align-items: center;
+        column-gap: 10em;
+    }
+
+    section.hero .content .left-container {
+        width: 42.5em;
+    }
+
+    section.hero .content .right-container {
+        row-gap: 5em;
+        text-align: start;
+        width: 21em;
+    }
+
+    section.hero .content .right-container h3 {
+        font-size: x-large;
+    }
+
+    section.hero .content .right-container p {
+        color: hsl(201, 11%, 66%);
+        font-size: medium;
+        line-height: 1.7;
+    }
+
+
+
+
+
+    section.workflow .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 6em;
+    }
+
+    section.workflow .content .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 290px;
+        height: 115px;
+
+    }
+
+    section.workflow .content .box .box-img {
+        width: 10%;
+        margin: 0;
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+
+    section.workflow .content .box img {
+        width: 100%;
+    }
+
+    section.workflow .content .box p {
+        color: hsl(201, 11%, 66%);
+        font-size: small;
+        line-height: 1;
+    }
+
+
+
+
+
+    section.sponsors {
+        margin: 15em auto;
+    }
+
+    section.sponsors .container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 4em;
+        width: 73%;
+
+    }
+
+    section.sponsors .container img {
+        width: 100%;
+    }
+
+    section.download .container .header-btn {
+        flex-direction: row;
+        width: 450px
+    }
+
+    section.download .container .header-btn button {
+        width: 100%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    footer .center {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(2, 10px);
+        justify-content: center;
+        text-align: start;
+        gap: 1em;
+    }
+
+    footer .center a:nth-of-type(2) {
+        grid-area: 2/1;
+    }
+
+    footer .center a:nth-of-type(4) {
+        grid-area: 2/2;
+    }
+}
